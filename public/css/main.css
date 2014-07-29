@@ -1,5 +1,5 @@
 body {
-  background: url(../media/images/portfolio/bg_1.png) no-repeat center center fixed;
+  background: url(../media/images/portfolio/bg_1.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -151,7 +151,7 @@ section {
     margin-top: 25px;
   }
   .git_info {
-    margin-top: 25px;
+    margin-top: 150px;
   }
 }
 /* Landscape phones and down */
