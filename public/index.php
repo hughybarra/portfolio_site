@@ -21,6 +21,9 @@
 	elseif ($action == "protozone"){
 		$view_model = new View_Model();
 		$view_model->get_view('../views/projects/protozone.html');
-
+	}
+	elseif($action == 'weather_api'){
+		$view_model = new View_Model();
+		$view_model->get_view('../views/projects/weather_api.html');
 	}
 ?>
