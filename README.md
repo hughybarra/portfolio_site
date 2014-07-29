@@ -1,4 +1,3 @@
-PHP-Template
-============
+#Portfolio Site
 
-basic PHP template for quick development by Hugh Ybarra
+This is my portfolio site. Um... dunno what else to say at the moment Ill edit this doc later 
