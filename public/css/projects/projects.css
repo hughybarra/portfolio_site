@@ -1,0 +1,14 @@
+body{
+	background-image: url(../../media/images/portfolio/dark_wood.png);
+	background-repeat: repeat-x repeat-y;
+
+	color: #c9cacb;
+}
+
+.images_section{
+	margin-top: 25px;
+}
+
+.footer{
+	margin-top: 25px;
+}

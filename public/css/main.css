@@ -1,0 +1,157 @@
+body {
+  background: url(../media/images/portfolio/bg_1.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+section {
+  height: 100vh;
+  min-height: 800px;
+  width: 100%;
+}
+.section_landing ul {
+  margin: 25vh auto;
+}
+.section_landing li {
+  margin-top: 15px;
+  height: 55px;
+  line-height: 55px;
+  background-color: rgba(255, 255, 255, 0.6);
+  text-align: center;
+  border-radius: 10px;
+  border: 2px solid #000000;
+  box-shadow: 1px 1px 2px #888888;
+  cursor: pointer;
+}
+.section_about {
+  border-top: 2px solid #000000;
+  border-bottom: 2px solid #000000;
+  background-image: url('../media/images/portfolio/dark_wood.png');
+  background-repeat: repeat-y repeat-x;
+  height: auto;
+}
+.section_about p,
+.section_about h3 {
+  color: #c9cacb;
+}
+.section_contact {
+  background-color: transparent;
+}
+.section_contact .contact_information {
+  margin: 25vh auto;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  border: 2px solid #000000;
+  box-shadow: 1px 1px 2px #888888;
+}
+.section_git {
+  margin-bottom: 0px;
+  border-top: 2px solid #000000;
+  border-bottom: 2px solid #000000;
+  background-image: url('../media/images/portfolio/dark_wood.png');
+  background-repeat: repeat-y repeat-;
+}
+.section_git p,
+.section_git h3 {
+  color: #c9cacb;
+}
+.section_resume h3 {
+  margin: 0px;
+}
+.section_resume .resume_div {
+  margin: 30vh auto;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  border: 2px solid #000000;
+  box-shadow: 1px 1px 2px #888888;
+}
+.section_resume .big_resume_button {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  color: #c9cacb;
+  margin: 10px;
+  cursor: pointer;
+  background: #7d7e7d;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #7d7e7d 0%, #0e0e0e 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #7d7e7d), color-stop(100%, #0e0e0e));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #7d7e7d 0%, #0e0e0e 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #7d7e7d 0%, #0e0e0e 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #7d7e7d 0%, #0e0e0e 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #7d7e7d 0%, #0e0e0e 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#7d7e7d', endColorstr='#0e0e0e', GradientType=0);
+  /* IE6-9 */
+}
+.section_resume .resume_button:hover {
+  color: #7f8182;
+}
+/* Large desktop */
+@media (min-width: 1200px) {
+  .section_landing {
+    height: 100vh;
+    min-height: 600px;
+  }
+  .section_about {
+    height: 100vh;
+    min-height: 600px;
+  }
+  .section_about .about_text {
+    margin-top: 150px;
+  }
+  .section_contact {
+    height: 100vh;
+    min-height: 600px;
+  }
+  .section_git {
+    height: 100vh;
+    min-height: 600px;
+  }
+  .section_git .git_info {
+    margin-top: 150px;
+  }
+}
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 1199px) {
+  .section_landing {
+    height: 100vh;
+    min-height: 600px;
+  }
+  .section_about {
+    height: 100vh;
+    min-height: 600px;
+  }
+  .section_about .about_text {
+    margin-top: 150px;
+  }
+  .section_contact {
+    height: 100vh;
+    min-height: 600px;
+  }
+  .section_git {
+    height: 100vh;
+    min-height: 600px;
+  }
+  .section_git .git_info {
+    margin-top: 150px;
+  }
+}
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+  .about_text {
+    margin-top: 25px;
+  }
+  .git_info {
+    margin-top: 25px;
+  }
+}
+/* Landscape phones and down */
