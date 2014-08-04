@@ -11,6 +11,9 @@ section {
   min-height: 800px;
   width: 100%;
 }
+.section_landing {
+  min-height: 30em;
+}
 .section_landing ul {
   margin: 25vh auto;
 }
@@ -42,6 +45,7 @@ section {
 }
 .section_contact {
   background-color: transparent;
+  min-height: 30em;
 }
 .section_contact .contact_information {
   margin: 25vh auto;
