@@ -1,4 +1,5 @@
 body {
+  font-size: 2em;
   background: url(../media/images/portfolio/bg_1.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -15,18 +16,18 @@ section {
 }
 .section_landing li {
   margin-top: 15px;
-  height: 55px;
-  line-height: 55px;
+  height: 3em;
+  line-height: 3em;
   background-color: rgba(255, 255, 255, 0.6);
   text-align: center;
-  border-radius: 10px;
-  border: 2px solid #000000;
-  box-shadow: 1px 1px 2px #888888;
+  border-radius: 1em;
+  border: .1em solid #000000;
+  box-shadow: .1em .1em .1em #888888;
   cursor: pointer;
 }
 .section_about {
-  border-top: 2px solid #000000;
-  border-bottom: 2px solid #000000;
+  border-top: .5em solid #000000;
+  border-bottom: .5em solid #000000;
   background-image: url('../media/images/portfolio/dark_wood.png');
   background-repeat: repeat-y repeat-x;
   height: auto;
@@ -41,14 +42,14 @@ section {
 .section_contact .contact_information {
   margin: 25vh auto;
   background-color: rgba(255, 255, 255, 0.8);
-  border-radius: 10px;
-  border: 2px solid #000000;
-  box-shadow: 1px 1px 2px #888888;
+  border-radius: 1em;
+  border: .1em solid #000000;
+  box-shadow: .1em .1em .1em #888888;
 }
 .section_git {
   margin-bottom: 0px;
-  border-top: 2px solid #000000;
-  border-bottom: 2px solid #000000;
+  border-top: .5em solid #000000;
+  border-bottom: .5em solid #000000;
   background-image: url('../media/images/portfolio/dark_wood.png');
   background-repeat: repeat-y repeat-;
 }
@@ -62,9 +63,9 @@ section {
 .section_resume .resume_div {
   margin: 30vh auto;
   background-color: rgba(255, 255, 255, 0.8);
-  border-radius: 10px;
-  border: 2px solid #000000;
-  box-shadow: 1px 1px 2px #888888;
+  border-radius: 1em;
+  border: .1em solid #000000;
+  box-shadow: .01em .01em .01em #888888;
 }
 .section_resume .big_resume_button {
   background-color: rgba(255, 255, 255, 0.8);
@@ -124,11 +125,10 @@ section {
 @media (min-width: 768px) and (max-width: 1199px) {
   .section_landing {
     height: 100vh;
-    min-height: 600px;
   }
   .section_about {
     height: 100vh;
-    min-height: 600px;
+    min-height: 50em;
   }
   .section_about .about_text {
     margin-top: 150px;
