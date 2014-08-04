@@ -18,7 +18,7 @@ section {
   margin: 25vh auto;
 }
 .section_landing li {
-  margin-top: 15px;
+  margin-top: 1em;
   height: 3em;
   font-size: 1em;
   line-height: 3em;
@@ -35,13 +35,8 @@ section {
   background-image: url('../media/images/portfolio/dark_wood.png');
   background-repeat: repeat-y repeat-x;
   height: auto;
-}
-.section_about p,
-.section_about h3 {
-  color: #c9cacb;
-}
-.section_about p {
   font-size: 1em;
+  color: #c9cacb ;
 }
 .section_contact {
   background-color: transparent;
