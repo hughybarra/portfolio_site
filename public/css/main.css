@@ -43,14 +43,14 @@ section {
   min-height: 30em;
 }
 .section_contact .contact_information {
-  margin: 25vh auto;
+  margin: 20vh auto;
   background-color: rgba(255, 255, 255, 0.8);
   border-radius: 1em;
   border: .1em solid #000000;
   box-shadow: .1em .1em .1em #888888;
 }
 .section_git {
-  margin-bottom: 0px;
+  margin-bottom: 1em;
   border-top: .5em solid #000000;
   border-bottom: .5em solid #000000;
   background-image: url('../media/images/portfolio/dark_wood.png');
