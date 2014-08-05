@@ -62,6 +62,7 @@ section {
 }
 .section_git {
   margin-bottom: 1em;
+  min-height: 30em;
   border-top: .5em solid #000000;
   border-bottom: .5em solid #000000;
   background-image: url('../media/images/portfolio/dark_wood.png');
