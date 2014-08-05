@@ -98,12 +98,17 @@ $( document ).ready(function() {
 	var contact_position 		= $('#section_contact').offset().top;
 	var git_position 			= $('#section_git').offset().top;
 	var resume_position 		= $('#section_resume').offset().top;
+	var viewport_width 		= $( window ).width();
+	var mobile_view_width 		= 767;
 
 	// check scroll location for background image swapping
 	$(window).scroll(function(){
 
+
+
 		// declaring vars
 		var currentPosition = $(document).scrollTop();
+
 
 		//resetting current position to zero if it goes negative
 		// this will prevent the current position from going into the negative numbers and breaking the page
@@ -116,17 +121,43 @@ $( document ).ready(function() {
 		if(currentPosition < about_position){
 			console.log('default image');
 
-			$('body').css("background-image", "url(media/images/portfolio/bg_1.jpg)");
+			if (viewport_width > mobile_view_width) {
+
+				// display the larger image
+				$('body').css("background-image", "url(media/images/portfolio/bg_1.jpg)");
+			}
+			else{
+				// display the mobile image
+			}
+
+			
 		}
 
 		if (currentPosition >= about_position && currentPosition < git_position){
 			console.log('new image');
-			$('body').css("background-image", "url(media/images/portfolio/bg_2.jpg)");
+
+
+			if (viewport_width > mobile_view_width){
+
+				// display the larger image
+				$('body').css("background-image", "url(media/images/portfolio/bg_2.jpg)");
+			}
+			else {
+				// display the mobile image
+			}
+			
 		}
 
 		if (currentPosition >= git_position){
-			console.log('default iamge');
-			$('body').css("background-image", "url(media/images/portfolio/bg_1.jpg)");
+
+			if (viewport_width > mobile_view_width){
+
+				// display the larger image
+				$('body').css("background-image", "url(media/images/portfolio/bg_2.jpg)");
+			}
+			else {
+				// display the mobile image
+			}
 		}
 	});/// end window.scroll function
 	//===================================================================================
