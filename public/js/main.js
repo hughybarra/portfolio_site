@@ -163,7 +163,7 @@ $( document ).ready(function() {
 	//===================================================================================
 
 	// click ajax functions
-	// github Buttons
+	// git	b Buttons
 
 	// resume button
 	$('.big_resume_button').click(function(){
