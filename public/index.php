@@ -16,12 +16,10 @@
 
 	if( $action == "home"){
 		$view_model = new View_Model();
-		header('Location: http://www.hughybarra.com/');
 		$view_model->get_view("../views/index.html");
 	}
 	elseif ($action == "protozone"){
 		$view_model = new View_Model();
-		header('Location: http://www.hughybarra.com/protozone');
 		$view_model->get_view('../views/projects/protozone.html');
 	}
 	elseif($action == 'weather_api'){
