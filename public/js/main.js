@@ -153,7 +153,7 @@ $( document ).ready(function() {
 			if (viewport_width > mobile_view_width){
 
 				// display the larger image
-				$('body').css("background-image", "url(media/images/portfolio/bg_2.jpg)");
+				$('body').css("background-image", "url(media/images/portfolio/bg_1.jpg)");
 			}
 			else {
 				// display the mobile image
