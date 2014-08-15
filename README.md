@@ -2,7 +2,8 @@
 
 Hello my name is Hugh Ybarra and this is my portfolio site. 
 
-feel free to have a look around. Nothing that special here. 
+feel free to have a look around. If you have any questions or comments feel free to get in touch. 
+You can contact me at hugh.ybarra@gmail.com. Enjoy! 
 
 technology stack 
 
